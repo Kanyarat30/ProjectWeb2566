@@ -1,0 +1,136 @@
+
+html, body, h1, h2, h3, p, ul, ol, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efead4; 
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #006400; 
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #FFA500; 
+    color: #FFF; 
+    border: 1px solid #FFA500; 
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #FF8C00; 
+}
+
+
+.add-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.add-btn .button {
+    background-color: #66921b; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    background-color: #f9df7b; 
+    border-radius: 5px;
+}
+
+
+th {
+    background-color: #006400; 
+    color: #FFF; 
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #006400; 
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9df7b; 
+}
+
+
+tr:nth-child(odd) {
+    background-color:#a9c45e; 
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+    border: 2px solid #006400; 
+}
+
+
+tr:hover {
+    background-color: #FBF9C2; 
+}
+
+
+.edit-button {
+    text-decoration: none;
+    background-color: #006400; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.edit-button:hover{
+    background-color: #003300; 
+}
+
+.delete-button {
+    text-decoration: none;
+    background-color: #e1610b; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.delete-button:hover {
+    background-color: #003300; 
+}
+
+
